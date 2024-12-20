@@ -1,0 +1,21 @@
+{
+  "name": "wine-shop-app",
+  "version": "1.0.0",
+  "description": "Node.js application for listing wines with caching in Redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "redis": "^3.0.2",
+    "ejs": "^3.1.6",
+    "dotenv": "^10.0.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
+
